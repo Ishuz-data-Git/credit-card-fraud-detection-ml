@@ -3,6 +3,14 @@
 ## 📌 Project Overview
 This project focuses on detecting fraudulent credit card transactions using machine learning techniques on a highly imbalanced dataset.
 
+## 📸 Project Screenshots
+
+### 🔍 Model Evaluation
+![Model Evaluation](screenshots/Screenshot%202025-12-13%20180605.png)
+
+### 📊 Threshold Tuning (Recall Improvement)
+![Threshold Tuning](screenshots/Screenshot%202025-12-13%20180720.png)
+
 ## 🚩 Problem Statement
 Fraudulent transactions are very rare compared to normal transactions, making accuracy a misleading metric.
 The main goal is to **maximize recall for fraud cases** to reduce financial loss.

@@ -1,50 +1,43 @@
-# Credit Card Fraud Detection using Machine Learning
+# 💳 Credit Card Fraud Detection (Machine Learning Project)
 
 ## 📌 Project Overview
-This project focuses on detecting fraudulent credit card transactions using machine learning techniques on a highly imbalanced dataset.
+This project focuses on detecting fraudulent credit card transactions using Machine Learning techniques on a highly imbalanced dataset.
 
-## 📸 Project Screenshots
+The goal is to identify fraud cases accurately while minimizing false negatives.
 
-### 🔍 Model Evaluation
-![Model Evaluation](screenshots/Screenshot%202025-12-13%20180605.png)
+---
 
-### 📊 Threshold Tuning (Recall Improvement)
-![Threshold Tuning](screenshots/Screenshot%202025-12-13%20180720.png)
+## 🎯 Business Problem
+Fraudulent transactions are rare compared to normal transactions, making accuracy a misleading metric.  
+The main objective is to maximize *Recall* for fraud detection to reduce financial loss.
 
-## 🚩 Problem Statement
-Fraudulent transactions are very rare compared to normal transactions, making accuracy a misleading metric.
-The main goal is to **maximize recall for fraud cases** to reduce financial loss.
+---
 
 ## 🛠 Tech Stack
 - Python
 - Pandas
 - NumPy
 - Scikit-learn
-- Jupyter Notebook
+- Matplotlib / Seaborn
 
-## 🔍 Steps Performed
-1. Data Loading & Exploration
-2. Exploratory Data Analysis (EDA)
-3. Feature Scaling
-4. Logistic Regression Model
-5. Model Evaluation (Confusion Matrix, Precision, Recall, F1-score)
-6. Threshold Tuning to Improve Recall
+---
+
+## 📊 Workflow
+1. Data Loading & Exploration  
+2. Data Cleaning  
+3. Feature Scaling  
+4. Model Training (Logistic Regression)  
+5. Threshold Tuning  
+6. Model Evaluation  
+
+---
 
 ## 📊 Model Performance
 - Accuracy: ~99.9%
 - Precision (Fraud): ~74%
 - Recall (Fraud): ~71%
 - F1-Score (Fraud): ~73%
+---
 
-> Since the dataset is highly imbalanced, **recall is prioritized over accuracy**.
+## 📂 Project Structure
 
-## 📈 Key Learning
-- Accuracy is not reliable for imbalanced datasets
-- Recall is the most important metric in fraud detection
-- Threshold tuning helps capture more fraudulent transactions
-
-## 📂 Dataset
-Credit Card Fraud Dataset (European cardholders)
-
-## ✨ Author
-Ishu Singh

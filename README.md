@@ -13,6 +13,12 @@ The main objective is to maximize *Recall* for fraud detection to reduce financi
 
 ---
 
+## 💼 Business Impact
+
+- Early detection of fraudulent transactions
+- Helps reduce financial losses
+- Demonstrates handling of imbalanced datasets using threshold tuning
+
 ## 🛠 Tech Stack
 - Python
 - Pandas
@@ -38,6 +44,7 @@ The main objective is to maximize *Recall* for fraud detection to reduce financi
 - Recall (Fraud): ~71%
 - F1-Score (Fraud): ~73%
 ---
-
+ Since the dataset is highly imbalanced, Recall was prioritized over Accuracy to ensure maximum fraud detection.
+ 
 ## 📂 Project Structure
 
